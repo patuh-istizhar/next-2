@@ -1,10 +1,10 @@
-import './globals.css'
-import Navbar from '../components/Navbar'
+import "./globals.css";
+import Navbar from "../components/Navbar";
 
 export const metadata = {
-  title: 'Tugas Next.js',
-  description: 'Latihan App Router',
-}
+  title: "Tugas Next.js",
+  description: "Latihan App Router",
+};
 
 export default function RootLayout({ children }: any) {
   return (
@@ -14,5 +14,5 @@ export default function RootLayout({ children }: any) {
         <main className="p-6">{children}</main>
       </body>
     </html>
-  )
+  );
 }
